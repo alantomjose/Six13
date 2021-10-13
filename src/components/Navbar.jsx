@@ -48,7 +48,7 @@ const Navbar = () => {
       <ul
         className={`links flex z-10  bg-black font-bold flex-col absolute left-0 ${
           showNav ? "top-full" : "-top-64"
-        } w-screen lg:top-0  lg:text-xl lg:relative lg:flex-row transition-all duration-500 lg:w-1/2 justify-between items-center`}
+        } w-screen lg:top-0  lg:text-lg lg:relative lg:flex-row transition-all duration-500 lg:w-1/2 justify-between items-center`}
       >
         <li className="p-2 nav-link">
           <Link to="/#home">HOME</Link>

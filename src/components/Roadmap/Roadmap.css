@@ -30,18 +30,18 @@
 .roadmap-item {
   z-index: 1;
   position: relative;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   background: rgba(255, 255, 255, 0.25);
 }
 
 .roadmap div:nth-child(odd) .roadmap-item {
-  padding-left: 4%;
-  padding-right: 1%;
+  padding-left: 5%;
+  padding-right: 2%;
   clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
 }
 .roadmap div:nth-child(even) .roadmap-item {
-  padding-left: 1%;
+  padding-left: 2%;
   padding-right: 4%;
   clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
 }

@@ -54,7 +54,7 @@ const Roadmap = () => {
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage">25%</div>
-          <div className="roadmap-item text-lg lg:text-2xl">
+          <div className="roadmap-item  text-lg lg:text-2xl">
             Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
             adipisci, tenetur placeat ea odio?
@@ -62,7 +62,7 @@ const Roadmap = () => {
         </div>
 
         <div className="milestone">
-          <div className="roadmap-item text-lg lg:text-2xl">
+          <div className="roadmap-item  text-lg lg:text-2xl">
             Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
             adipisci, tenetur placeat ea odio?
@@ -74,7 +74,7 @@ const Roadmap = () => {
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage">75%</div>
-          <div className="roadmap-item text-lg lg:text-2xl">
+          <div className="roadmap-item  text-lg lg:text-2xl">
             Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
             adipisci, tenetur placeat ea odio?
@@ -86,7 +86,7 @@ const Roadmap = () => {
             style={{
               background: itemBgColor,
             }}
-            className="roadmap-item text-lg lg:text-2xl"
+            className="roadmap-item  text-lg lg:text-2xl"
           >
             Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
