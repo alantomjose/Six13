@@ -4,7 +4,10 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div id="about" className="about px-4 py-6 lg:px-20 lg:py-10">
+    <div
+      id="about"
+      className="about px-4 py-6 max-w-screen-xl mx-auto lg:py-10"
+    >
       <Intro />
 
       <div className="fact mt-6 lg:mt-10 py-4 px-8 lg:py-10 lg:px-20">
@@ -23,7 +26,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="cool-image h-screen bg-hero bg-center bg-cover rounded-2xl mt-5 lg:mt-10">
+      <div className="cool-image bg-hero bg-center bg-cover rounded-2xl mt-5 lg:mt-10">
         <div className="bg-filter bg-black bg-opacity-40 h-full w-full"></div>
       </div>
     </div>

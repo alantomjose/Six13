@@ -46,7 +46,11 @@ const Roadmap = () => {
       <h1 className="font-bold  text-2xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16 lg:text-5xl">
         ROADMAP
       </h1>
-      <div id="roadmap" ref={scrollRef} className="roadmap mt-10">
+      <div
+        id="roadmap"
+        ref={scrollRef}
+        className="roadmap max-w-screen-xl mt-10"
+      >
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage">25%</div>

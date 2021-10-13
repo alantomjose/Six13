@@ -2,7 +2,7 @@ import React from "react";
 
 const Board = () => {
   return (
-    <div className="team  px-4 py-6  mt-16 lg:px-20 lg:py-10">
+    <div className="team  px-4 py-6  mt-16 max-w-screen-xl mx-auto lg:py-10">
       <h1 className=" font-bold text-2xl text-center mb-8 lg:mb-16 lg:text-5xl">
         BOARD
       </h1>

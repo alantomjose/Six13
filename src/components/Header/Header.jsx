@@ -3,7 +3,10 @@ import "./Header.css";
 import { motion } from "framer-motion";
 const Header = () => {
   return (
-    <div id="home" className="px-4 py-6 lg:px-20 lg:py-10 h-screen">
+    <div
+      id="home"
+      className="home px-4 py-6 max-w-screen-xl mx-auto  lg:py-10 "
+    >
       <div className="bg-hero h-full w-full bg-cover bg-bottom rounded-2xl ">
         <div className="h-full w-full bg-black bg-opacity-40 ">
           <div className="hero-logo h-3/4 flex items-center justify-center lg:justify-start lg:pl-24">
