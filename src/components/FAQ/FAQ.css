@@ -1,0 +1,49 @@
+.accordion__button {
+  position: relative;
+  background: black !important;
+  font-size: 24px;
+  color: white !important;
+}
+
+.accordion__button:hover {
+  background: black;
+}
+
+.accordion__button:before {
+  display: none !important;
+}
+
+.accordion__button:after {
+  position: absolute;
+  top: 50%;
+  right: -10%;
+  display: inline-block;
+  content: "";
+  height: 16px;
+  width: 16px;
+  border-bottom: 4px solid currentColor;
+  border-right: 4px solid currentColor;
+  transform: rotate(-45deg) translateY(-50%);
+}
+
+.accordion__button[aria-expanded="true"]::after,
+.accordion__button[aria-selected="true"]::after {
+  transform: rotate(45deg) translateY(-50%);
+}
+
+@media (max-width: 600px) {
+  .accordion__button {
+    font-size: 16px;
+  }
+  .accordion__button::after {
+    height: 12px;
+    width: 12px;
+    right: -10px;
+  }
+
+  .accordion__button[aria-expanded="true"]::after,
+  .accordion__button[aria-selected="true"]::after {
+    transform: rotate(45deg) translateY(-50%);
+    right: 30px;
+  }
+}

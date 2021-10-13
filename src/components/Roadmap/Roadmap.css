@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roadmap {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  padding: 0px 24px;
+  position: relative;
+}
+
+.milestone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.empty,
+.roadmap-item {
+  flex-basis: 40%;
+}
+
+.percentage {
+  flex: 0 auto;
+}
+
+.roadmap-item {
+  z-index: 1;
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.roadmap div:nth-child(odd) .roadmap-item {
+  padding-left: 4%;
+  padding-right: 1%;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+}
+.roadmap div:nth-child(even) .roadmap-item {
+  padding-left: 1%;
+  padding-right: 4%;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: auto;
+  z-index: 3;
+  width: 100px;
+  background: rgba(25, 255, 236, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 10px;
+}
+
+.percentage span {
+  padding: 10px 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  background: rgb(19, 168, 168);
+}
+
+@media (max-width: 600px) {
+  .roadmap {
+    padding: 5px;
+    padding-right: 10px;
+  }
+
+  .percentage {
+    flex-basis: 14%;
+    order: 1;
+  }
+
+  .empty {
+    flex-basis: 0;
+  }
+
+  .roadmap-item {
+    flex-basis: 80%;
+    order: 2;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .roadmap div:nth-child(n) .roadmap-item {
+    padding-left: 8%;
+    padding-right: 1%;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+  }
+}
