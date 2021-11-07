@@ -13,21 +13,17 @@ const About = () => {
       <div className="fact mt-6 lg:mt-10 py-4 px-8 lg:py-10 lg:px-20">
         <h1 className="text-2xl lg:text-5xl font-bold text-center">
           {" "}
-          SOME COOL FACT
+          "Genesis"
         </h1>
         <p className="px-3 lg:px-20 mt-10 text-center lg:text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-          omnis ex ipsa quam quisquam sapiente distinctio nostrum itaque. Dolor
-          porro illo corporis eveniet vero id earum? Iusto necessitatibus fugiat
-          sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-          libero asperiores voluptatum eligendi reprehenderit consequuntur
-          placeat, quo incidunt aliquid voluptatem sapiente maiores ipsum
-          expedita, corrupti quod sit itaque ut in!
+          Introducing Project Six1Three’s first NFT drop - "Genesis" featuring
+          the amazing artwork of Jewish Brooklyn born artist Coby Katz
+          (@cobykatz). Coby’s collection is made of 613 programmatically
+          generated illustrations of the great Lubavitcher Rebbe. Holding onto a
+          “Six1Three” token will grant you early access to future drops,
+          charitable rewards, priceless prizes, and membership to an entire
+          community driven by good.
         </p>
-      </div>
-
-      <div className="cool-image bg-hero bg-center bg-cover rounded-2xl mt-5 lg:mt-10">
-        <div className="bg-filter bg-black bg-opacity-40 h-full w-full"></div>
       </div>
     </div>
   );

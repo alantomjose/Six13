@@ -53,54 +53,54 @@ const Roadmap = () => {
       >
         <div className="milestone">
           <div className="empty"></div>
-          <div className="percentage">25%</div>
+          <div className="percentage"></div>
           <div className="roadmap-item  text-lg lg:text-2xl">
-            Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
-            adipisci, tenetur placeat ea odio?
+            At sellout - 100% of profits will be donated to charity. Project
+            Six1Three will plant 613 trees in Israel.
           </div>
         </div>
 
         <div className="milestone">
           <div className="roadmap-item  text-lg lg:text-2xl">
-            Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
-            adipisci, tenetur placeat ea odio?
+            Custom Six1Three apparel drop
           </div>
-          <div className="percentage">50%</div>
+          <div className="percentage"></div>
           <div className="empty"></div>
         </div>
 
         <div className="milestone">
           <div className="empty"></div>
-          <div className="percentage">75%</div>
+          <div className="percentage"></div>
           <div className="roadmap-item  text-lg lg:text-2xl">
-            Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
-            adipisci, tenetur placeat ea odio?
+            18 Rare custom Mezuzahs designed by Coby Katz raffled off.
           </div>
         </div>
 
         <div className="milestone">
+          <div className="roadmap-item  text-lg lg:text-2xl">
+            Custom Six1Three apparel drop
+          </div>
+          <div className="percentage"></div>
+          <div className="empty"></div>
+        </div>
+
+        <div className="milestone">
+          <div className="empty"></div>
+          <motion.div
+            style={{
+              background: percentBgColor,
+            }}
+            className="percentage"
+          ></motion.div>
           <motion.div
             style={{
               background: itemBgColor,
             }}
             className="roadmap-item  text-lg lg:text-2xl"
           >
-            Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Obcaecati repellendus et eligendi? Quae ipsam voluptatem
-            adipisci, tenetur placeat ea odio?
+            Win a chance to go to the Holy Land in an all inclusive luxurious
+            and historical trip to Israel for 2.
           </motion.div>
-          <motion.div
-            style={{
-              background: percentBgColor,
-            }}
-            className="percentage"
-          >
-            100%
-          </motion.div>
-          <div className="empty"></div>
         </div>
 
         <ScrollContainer />
