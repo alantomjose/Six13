@@ -16,7 +16,7 @@ const Team = () => {
             Tech Developer
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const Team = () => {
             Marketing
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member col-span-2 p-2 md:col-span-2 lg:col-span-1">
@@ -35,7 +35,7 @@ const Team = () => {
             Team Lead
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member col-span-2 p-2 md:col-end-4 md:col-span-2 lg:col-span-1">
@@ -44,7 +44,7 @@ const Team = () => {
             PR Guy
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member col-end-4 col-span-2 p-2 md:col-end-6 md:col-span-2 lg:col-span-1">
@@ -53,7 +53,7 @@ const Team = () => {
             Artist
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
       </div>

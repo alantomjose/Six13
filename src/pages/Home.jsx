@@ -15,7 +15,7 @@ const Home = () => {
       <Carousel />
       <Roadmap />
       <div className="cool-image max-w-screen-xl mx-auto  bg-hero bg-center bg-cover rounded-2xl mt-20 lg:mt-40">
-        <div className="bg-filter bg-black bg-opacity-60 h-full w-full text-center leading-relaxed text-4xl flex justify-center flex-col items-center">
+        <div className="bg-filter bg-black bg-opacity-60 h-full w-full text-center leading-relaxed text-xl lg:text-4xl flex justify-center flex-col items-center">
           <p className="max-w-4xl">
             The future for Project Six1Three is bright! We’re excited to build
             this community together, lookout for upcoming events, IRL meetups,

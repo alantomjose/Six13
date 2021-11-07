@@ -14,7 +14,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2  ">
@@ -33,7 +33,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2  ">
@@ -42,7 +42,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2 ">
@@ -51,7 +51,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2  ">
@@ -60,7 +60,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
 
@@ -70,7 +70,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2  ">
@@ -79,7 +79,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2">
@@ -88,7 +88,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
         <div className="member  p-2 md:col-end-3 lg:col-end-auto">
@@ -97,7 +97,7 @@ const Board = () => {
             Board Member
           </p>
           <p className="team__name mt-1 text-center text-xl md:text-2xl lg:text-3xl font-bold">
-            Pixel Rabi
+            Six1Three
           </p>
         </div>
       </div>
