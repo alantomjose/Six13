@@ -4,8 +4,8 @@ const Intro = () => {
   return (
     <div className="intro rounded-xl  bg-intro  bg-top">
       <div className="bg-filter bg-black bg-opacity-60 h-full w-full py-10 px-6  lg:py-20 lg:px-20">
-        <h1 className="text-center font-bold text-2xl  lg:text-5xl">
-          PROJECT SIX1THREE
+        <h1 className="text-center  text-6xl font-primary  lg:text-9xl">
+          What is Project Six1Three?
         </h1>
         <p className="text-center  lg:text-xl my-10 lg:px-28">
           Is a community driven NFT initiative that introduces the first of its

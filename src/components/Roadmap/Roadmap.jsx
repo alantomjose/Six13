@@ -43,7 +43,7 @@ const Roadmap = () => {
   return (
     <>
       {" "}
-      <h1 className="font-bold  text-2xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16 lg:text-5xl">
+      <h1 className="text-6xl font-primary  lg:text-9xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16">
         ROADMAP
       </h1>
       <div

@@ -11,7 +11,7 @@ const About = () => {
       <Intro />
 
       <div className="fact mt-6 lg:mt-10 py-4 px-8 lg:py-10 lg:px-20">
-        <h1 className="text-2xl lg:text-5xl font-bold text-center">
+        <h1 className="text-6xl font-primary  lg:text-9xl text-center">
           {" "}
           "Genesis"
         </h1>
