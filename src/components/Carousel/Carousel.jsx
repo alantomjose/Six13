@@ -1,10 +1,11 @@
 import React from "react";
-import "./Carousel.css";
 import SwiperCore, { Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
+import "./Carousel.css";
 // import "swiper/css";
+
 const Carousel = () => {
   SwiperCore.use([Autoplay]);
 

@@ -22,22 +22,27 @@ const Intro = () => {
         <div className="social-icons flex justify-center ">
           <a href="/">
             <img
-              src="/images/twitter-32.png"
-              className="mr-6"
+              src="/images/twitter.png"
+              className="mr-10"
               width="48"
               alt=""
             />
           </a>
           <a href="/">
             <img
-              src="/images/discord-2-32.png"
-              className="mr-6"
+              src="/images/discord.png"
+              className="mr-10"
               width="48"
               alt=""
             />
           </a>
           <a href="/">
-            <img src="/images/opensea.png" className="mr-6" width="48" alt="" />
+            <img
+              src="/images/opensea.png"
+              className="mr-10"
+              width="48"
+              alt=""
+            />
           </a>
         </div>
       </div>

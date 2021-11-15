@@ -26,7 +26,7 @@ const Team = () => {
             DEVELOPMENT
           </p>
           <p className="team__name font-primary mt-2 text-center text-xl md:text-2xl lg:text-5xl">
-            Taaha
+            Incepthink
           </p>
         </div>
         <div className="member text-custom-green col-span-2 p-2 md:col-span-2 lg:col-span-1">

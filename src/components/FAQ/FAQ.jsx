@@ -13,9 +13,11 @@ const FAQ = () => {
   return (
     <div
       id="faq"
-      className="faq px-4 py-6  mt-16 bg-custom-gradient bg-cover text-black bg-center flex justify-center"
+      className="faq px-4 py-20  mt-16 bg-custom-gradient bg-cover text-black bg-center flex flex-col items-center justify-center"
     >
-      <div className="collapsible-wrapper max-w-3xl">
+      <h1 className="text-6xl font-primary  lg:text-8xl text-center"> FAQ</h1>
+
+      <div className="collapsible-wrapper mt-20 max-w-3xl">
         <Accordion allowMultipleExpanded={true} allowZeroExpanded={true}>
           <AccordionItem>
             <AccordionItemHeading>

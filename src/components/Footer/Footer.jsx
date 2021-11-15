@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <img
-          src="/images/logo.png"
+          src="/images/logo 2d white.png"
           width="150"
           className="mt-10 mx-auto"
           alt=""
