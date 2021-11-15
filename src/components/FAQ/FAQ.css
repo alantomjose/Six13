@@ -1,8 +1,16 @@
+.accordion {
+  border: 0 !important;
+}
+
+.accordion__item {
+  border-top: 0 !important;
+}
+
 .accordion__button {
   position: relative;
-  background: black !important;
+  background: transparent !important;
   font-size: 24px;
-  color: white !important;
+  color: black !important;
 }
 
 .accordion__button:hover {

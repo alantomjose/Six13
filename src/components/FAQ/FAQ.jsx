@@ -6,16 +6,16 @@ import {
   AccordionItemHeading,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import "./FAQ.css";
 import "react-accessible-accordion/dist/fancy-example.css";
+import "./FAQ.css";
 
 const FAQ = () => {
   return (
     <div
       id="faq"
-      className="faq px-4 py-6  mt-16 lg:px-20 lg:py-10 flex justify-center"
+      className="faq px-4 py-6  mt-16 bg-custom-gradient bg-cover text-black bg-center flex justify-center"
     >
-      <div className="collapsible-wrapper max-w-xl">
+      <div className="collapsible-wrapper max-w-3xl">
         <Accordion allowMultipleExpanded={true} allowZeroExpanded={true}>
           <AccordionItem>
             <AccordionItemHeading>

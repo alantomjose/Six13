@@ -32,7 +32,7 @@
   position: relative;
   padding-top: 24px;
   padding-bottom: 24px;
-  background: rgba(255, 255, 255, 0.25);
+  /* background: rgba(255, 255, 255, 0.25); */
 }
 
 .roadmap div:nth-child(odd) .roadmap-item {

@@ -43,7 +43,7 @@ const Roadmap = () => {
   return (
     <>
       {" "}
-      <h1 className="text-6xl font-primary  lg:text-9xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16">
+      <h1 className="text-6xl font-primary  lg:text-8xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16">
         ROADMAP
       </h1>
       <div
@@ -54,14 +54,14 @@ const Roadmap = () => {
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage"></div>
-          <div className="roadmap-item  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
             At sellout - 100% of profits will be donated to charity. Project
             Six1Three will plant 613 trees in Israel.
           </div>
         </div>
 
         <div className="milestone">
-          <div className="roadmap-item  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
             Custom Six1Three apparel drop
           </div>
           <div className="percentage"></div>
@@ -71,13 +71,13 @@ const Roadmap = () => {
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage"></div>
-          <div className="roadmap-item  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
             18 Rare custom Mezuzahs designed by Coby Katz raffled off.
           </div>
         </div>
 
         <div className="milestone">
-          <div className="roadmap-item  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
             Custom Six1Three apparel drop
           </div>
           <div className="percentage"></div>
@@ -96,7 +96,7 @@ const Roadmap = () => {
             style={{
               background: itemBgColor,
             }}
-            className="roadmap-item  text-lg lg:text-2xl"
+            className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl"
           >
             Win a chance to go to the Holy Land in an all inclusive luxurious
             and historical trip to Israel for 2.

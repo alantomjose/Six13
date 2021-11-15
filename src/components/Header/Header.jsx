@@ -5,35 +5,29 @@ const Header = () => {
   return (
     <div
       id="home"
-      className="home px-4 py-6 max-w-screen-xl mx-auto  lg:py-10 "
+      className="home bg-custom-gradient bg-cover bg-center px-4 py-6  min-h-screen flex flex-col justify-center items-center  lg:py-10 "
     >
-      <div className="bg-hero h-full w-full bg-cover bg-bottom rounded-2xl ">
-        <div className="h-full w-full bg-black bg-opacity-40 ">
-          <div className="hero-logo h-3/4 flex items-center justify-center lg:justify-start lg:pl-24">
-            <motion.div
-              initial={{
-                x: -700,
-              }}
-              animate={{
-                x: 0,
-              }}
-              transition={{
-                delay: 0.5,
-                type: "spring",
-                duration: 1.5,
-              }}
-              className="bg-filter p-10 backdrop-filter backdrop-blur-sm bg-black bg-opacity-40 rounded-2xl"
-            >
-              <img src="/images/logo.png" alt="" />
-            </motion.div>
-          </div>
+      <motion.div
+        className="w-1/2"
+        initial={{
+          x: -700,
+        }}
+        animate={{
+          x: 0,
+        }}
+        transition={{
+          delay: 0.5,
+          type: "spring",
+          duration: 1.5,
+        }}
+      >
+        <img src="/images/3dlogo.png" alt="" />
+      </motion.div>
 
-          <div className="button-wrapper flex justify-center">
-            <button className="rounded py-2 px-20 bg-gradient-to-r border-2 border-blue-900  from-primary text-blue-900 font-bold text-2xl to-primary-light transition transform hover:scale-105">
-              MINT
-            </button>
-          </div>
-        </div>
+      <div className="button-wrapper flex justify-center">
+        <button className="py-4 px-24 bg-black font-bold text-2xl mt-24  transition transform hover:scale-105">
+          MINT
+        </button>
       </div>
     </div>
   );

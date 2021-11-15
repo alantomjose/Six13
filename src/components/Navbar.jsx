@@ -24,7 +24,7 @@ const Navbar = () => {
   }, [location]);
 
   return (
-    <nav className="bg-black z-10 fixed top-0 py-5 left-0 right-0 flex text-white  lg:py-5 px-5 lg:px-8 items-center justify-between">
+    <nav className="bg-black z-10 fixed top-0 py-5 left-0 right-0 flex text-white  lg:py-3 px-5 lg:px-8 items-center justify-between">
       <div className="nav-left-container flex"></div>
 
       <button className="block  lg:hidden" onClick={toggleNav}>
@@ -48,7 +48,7 @@ const Navbar = () => {
       <ul
         className={`links flex z-10  bg-black font-primary flex-col absolute left-0 ${
           showNav ? "top-full" : "-top-96"
-        } w-screen lg:top-0  text-xl lg:text-3xl lg:relative lg:flex-row transition-all duration-500 lg:w-1/2 justify-between items-center`}
+        } w-screen lg:top-0  text-xl lg:text-2xl lg:relative lg:flex-row transition-all duration-500 lg:w-auto lg:gap-5 2xl:gap-14 justify-between items-center`}
       >
         <li className="p-2 nav-link">
           <Link to="/#home">HOME</Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link to="/#team">TEAM</Link>
         </li>
         <li className="p-2">
-          <button className="my-2 bg-gradient-to-r from-primary to-primary-light   py-2 px-3 rounded  lg:my-0">
+          <button className="my-2 bg-custom-gradient bg-cover bg-center  py-2 px-3 rounded  lg:my-0">
             CONNECT WALLET
           </button>
         </li>
