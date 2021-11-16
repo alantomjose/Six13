@@ -47,8 +47,8 @@ const ScrollContainer = () => {
 
   const progressBgColor = useTransform(
     scrollY,
-    [0, topOffset, topOffset + containerHeight],
-    ["#000000", "#23C0E1", "#7F00FF"]
+    [0, topOffset, topOffset + 500, topOffset + containerHeight],
+    ["#000000", "#f0a401", "#3edb51", "#133d8f"]
   );
 
   return (

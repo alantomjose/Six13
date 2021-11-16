@@ -13,7 +13,7 @@ const FAQ = () => {
   return (
     <div
       id="faq"
-      className="faq px-4 py-20  mt-16 bg-custom-gradient bg-cover text-black bg-center flex flex-col items-center justify-center"
+      className="faq px-4 py-20  max-w-screen-xl mx-auto mt-16 bg-custom-gradient bg-cover text-black bg-center flex flex-col items-center justify-center"
     >
       <h1 className="text-6xl font-primary  lg:text-8xl text-center"> FAQ</h1>
 
