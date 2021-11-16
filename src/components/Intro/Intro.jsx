@@ -4,10 +4,10 @@ const Intro = () => {
   return (
     <div className="intro bg-black max-w-screen-xl mx-auto rounded-3xl">
       <div className="h-full w-full py-10 px-6  lg:py-20 lg:px-20">
-        <h1 className="text-center  text-6xl font-primary  lg:text-8xl">
+        <h1 className="text-center  text-5xl font-primary  lg:text-8xl">
           What is Project Six1Three?
         </h1>
-        <p className="text-center  lg:text-lg my-10 lg:px-28">
+        <p className="text-center  text-sm lg:text-lg my-10 lg:px-28">
           Is a community driven NFT initiative that introduces the first of its
           kind jewish community on the blockchain. 100% of the profits from the
           project will be donated to top jewish charitable foundations. We’re

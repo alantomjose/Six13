@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 600px) {
-  .hero-logo img {
-    width: 200px;
+  .home img {
+    width: 300px;
   }
 }

@@ -8,7 +8,7 @@ const Header = () => {
       className="home bg-custom-gradient bg-cover bg-center px-4 py-6  min-h-screen flex flex-col justify-center items-center  lg:py-10 "
     >
       <motion.div
-        className="w-1/2"
+        className="lg:w-1/2"
         initial={{
           x: -700,
         }}
@@ -21,7 +21,11 @@ const Header = () => {
           duration: 1.5,
         }}
       >
-        <img src="/images/3dlogo.png" alt="" />
+        <img
+          src="/images/3dlogo.png"
+          className="hero-logo flex-shrink-0"
+          alt=""
+        />
       </motion.div>
 
       <div className="button-wrapper flex justify-center">
