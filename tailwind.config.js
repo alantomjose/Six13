@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: 'url("assets/images/0002.jpg")',
+        hero: 'url("assets/images/header_bg.jpg")',
         intro: 'url("assets/images/0001.jpg")',
         "custom-gradient": 'url("assets/images/gradient.jpg")',
       },

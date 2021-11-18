@@ -10,7 +10,7 @@ const About = () => {
     >
       <Intro />
 
-      <div className="fact mt-6 lg:mt-24 bg-black max-w-screen-xl rounded-3xl mx-auto py-10 px-8  lg:py-20 lg:px-20">
+      <div className="fact mt-6 lg:mt-24 bg-black max-w-6xl rounded-custom mx-auto py-10 px-8  lg:py-20 lg:px-20">
         <h1 className="text-5xl font-primary  lg:text-8xl text-center">
           {" "}
           "Genesis"

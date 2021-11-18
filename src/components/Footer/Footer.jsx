@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="footer mx-auto max-w-sm md:max-w-xl lg:max-w-4xl border-t-4 border-primary">
         <div className="social-links flex mt-10 justify-center">
           <a href="/" className="">
-            <img src="/images/discord-2-32.png" alt="" />
+            <img src="/images/discord.png" width="32" alt="" />
           </a>
           <a href="/" className="ml-10">
-            <img src="/images/twitter-32.png" alt="" />
+            <img src="/images/twitter.png" width="32" alt="" />
           </a>
           <a href="/" className="ml-10">
             <img src="/images/opensea.png" width="32" alt="" />

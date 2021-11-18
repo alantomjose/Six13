@@ -1,3 +1,7 @@
 .App {
   font-family: "Roboto", sans-serif;
 }
+
+.rounded-custom {
+  border-radius: 3rem;
+}

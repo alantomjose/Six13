@@ -30,8 +30,8 @@
 .roadmap-item {
   z-index: 1;
   position: relative;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
   /* background: rgba(255, 255, 255, 0.25); */
 }
 
@@ -82,6 +82,8 @@
   }
 
   .roadmap-item {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     flex-basis: 80%;
     order: 2;
     font-size: 14px;
@@ -89,8 +91,8 @@
   }
 
   .roadmap div:nth-child(n) .roadmap-item {
-    padding-left: 8%;
-    padding-right: 1%;
+    padding-left: 12%;
+    padding-right: 2%;
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
   }
 }

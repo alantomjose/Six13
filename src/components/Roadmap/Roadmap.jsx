@@ -49,7 +49,7 @@ const Roadmap = () => {
   return (
     <>
       {" "}
-      <h1 className="text-6xl font-primary   lg:text-8xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16">
+      <h1 className="text-6xl font-primary   lg:text-9xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16">
         ROADMAP
       </h1>
       <div
@@ -60,14 +60,14 @@ const Roadmap = () => {
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage bg-gradient-to-tr from-custom-orange via-yellow-400 to-green-200"></div>
-          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center font-medium">
             At sellout - 100% of profits will be donated to charity. Project
             Six1Three will plant 613 trees in Israel.
           </div>
         </div>
 
         <div className="milestone">
-          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center font-medium">
             Custom Six1Three apparel drop
           </div>
           <div className="percentage bg-gradient-to-tr from-custom-yellow via-yellow-500 to-yellow-600"></div>
@@ -77,13 +77,13 @@ const Roadmap = () => {
         <div className="milestone">
           <div className="empty"></div>
           <div className="percentage bg-gradient-to-tr from-custom-green via-green-500 to-blue-200"></div>
-          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center font-medium">
             18 Rare custom Mezuzahs designed by Coby Katz raffled off.
           </div>
         </div>
 
         <div className="milestone">
-          <div className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl">
+          <div className="roadmap-item bg-custom-gradient bg-cover bg-center font-medium">
             Custom Six1Three apparel drop
           </div>
           <div className="percentage bg-gradient-to-tr from-custom-blue-1 via-blue-400 to-blue-600"></div>
@@ -102,7 +102,7 @@ const Roadmap = () => {
             style={{
               opacity: itemOpacity,
             }}
-            className="roadmap-item bg-custom-gradient bg-cover bg-center  text-lg lg:text-2xl"
+            className="roadmap-item bg-custom-gradient bg-cover bg-centerg font-medium"
           >
             Win a chance to go to the Holy Land in an all inclusive luxurious
             and historical trip to Israel for 2.
