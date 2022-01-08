@@ -10,7 +10,7 @@ const Carousel = () => {
   SwiperCore.use([Autoplay]);
 
   return (
-    <div className="carousel mt-10">
+    <div className="carousel mt-24">
       <Swiper
         spaceBetween={50}
         loop={true}

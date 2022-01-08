@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <div
       id="team"
-      className="team px-4 py-6  mt-16 max-w-screen-xl mx-auto lg:py-10"
+      className="team px-4 py-6  mt-16 lg:mt-36 max-w-screen-xl mx-auto lg:py-10"
     >
       <h1 className="text-6xl font-primary lg:text-9xl text-center mb-8 lg:mb-16">
         TEAM

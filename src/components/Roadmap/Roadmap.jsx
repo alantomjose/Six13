@@ -28,7 +28,6 @@ const Roadmap = () => {
 
   const { scrollY } = useViewportScroll();
 
-
   // const itemBgColor = useTransform(
   //   scrollY,
   //   [topOffset + 500, topOffset + containerHeight + 300],
@@ -44,7 +43,7 @@ const Roadmap = () => {
   return (
     <>
       {" "}
-      <h1 className="text-6xl font-primary   lg:text-9xl text-center mb-8 mt-10 lg:mt-20 lg:mb-16">
+      <h1 className="text-6xl font-primary lg:text-9xl text-center mb-8 mt-10 lg:mt-36 lg:mb-16">
         ROADMAP
       </h1>
       <div
@@ -87,9 +86,7 @@ const Roadmap = () => {
 
         <div className="milestone">
           <div className="empty"></div>
-          <div
-            className="percentage bg-gradient-to-tr from-blue-900 via-blue-700 to-custom-blue-1"
-          ></div>
+          <div className="percentage bg-gradient-to-tr from-blue-900 via-blue-700 to-custom-blue-1"></div>
           <motion.div
             style={{
               opacity: itemOpacity,
