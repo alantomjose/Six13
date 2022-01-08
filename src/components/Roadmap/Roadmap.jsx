@@ -28,11 +28,6 @@ const Roadmap = () => {
 
   const { scrollY } = useViewportScroll();
 
-  const percentBgColor = useTransform(
-    scrollY,
-    [topOffset, topOffset + containerHeight],
-    ["#000", "#133d8f"]
-  );
 
   // const itemBgColor = useTransform(
   //   scrollY,
@@ -92,12 +87,9 @@ const Roadmap = () => {
 
         <div className="milestone">
           <div className="empty"></div>
-          <motion.div
-            style={{
-              background: percentBgColor,
-            }}
-            className="percentage"
-          ></motion.div>
+          <div
+            className="percentage bg-gradient-to-tr from-blue-900 via-blue-700 to-custom-blue-1"
+          ></div>
           <motion.div
             style={{
               opacity: itemOpacity,

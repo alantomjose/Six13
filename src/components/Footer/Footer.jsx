@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-wrapper mt-10">
       <div className="footer mx-auto max-w-sm md:max-w-xl lg:max-w-4xl border-t-4 border-primary">
-        <div className="social-links flex mt-10 justify-center">
+      <div className="social-links flex mt-10 justify-center">
           <a href="/" className="">
             <img src="/images/discord.png" width="32" alt="" />
           </a>
