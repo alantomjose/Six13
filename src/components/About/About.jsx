@@ -18,6 +18,9 @@ const About = () => {
             className="animated-rabbi mx-auto lg:mx-0"
             alt=""
           />
+          <p className="text-sm mt-3 text-center lg:text-left">
+            *Genesis NFT's are not animated
+          </p>
         </div>
         <div className="flex-1 px-3 mt-10 lg:mt-0 lg:px-20 text-center flex flex-col justify-center">
           <img

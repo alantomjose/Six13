@@ -43,7 +43,7 @@ const ScrollContainer = () => {
 
   const { scrollY } = useViewportScroll();
 
-  const progressBarHeight = (windowScrollY - topOffset) * 1.2;
+  const progressBarHeight = (windowScrollY - topOffset - 200) * 1.2;
 
   const progressBgColor = useTransform(
     scrollY,
